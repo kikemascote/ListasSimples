@@ -24,7 +24,7 @@ public class App {
 		System.out.println();
 		names.pronter();
 		
-		names.remplace("Pedro", "pepe");//Remplazamos a Pedro por pepe
+		names.replace("Pedro", "pepe");//Remplazamos a Pedro por pepe
 		names.remove("ana");//eliminamos a ana
 		names.addFirst("Milton");// Agregamos a milton al final de la lista
 		
@@ -84,7 +84,7 @@ public class App {
 		
 		//Verificamos si esta vacia
 		if (names.isEmpty()) { 
-			System.out.println("\nEsta vasia"); 
+			System.out.println("\nEsta vacía"); 
 		}else {
 			System.out.println("\nTiene datos"); 
 		}

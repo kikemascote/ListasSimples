@@ -236,7 +236,7 @@ public class LinkedList<T> implements Iterator<String>{
 		return data;
 	}
 
-	public void remplace(T oldValue, T newValue) {
+	public void replace(T oldValue, T newValue) {
 		Node<T> tmp = this.sentinel;
 		while (tmp.getNext() != null) {
 			if (tmp.getNext().getValue() == oldValue) {
@@ -246,7 +246,7 @@ public class LinkedList<T> implements Iterator<String>{
 		}
 	}
 
-	public void remplace(long index, T newValue) {
+	public void replace(long index, T newValue) {
 		Node<T> tmp = this.sentinel;
 		while (tmp.getNext() != null) {
 			if (tmp.getNext().getIndex() == index) {
